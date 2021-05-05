@@ -7,16 +7,16 @@
     <ClCompile Include="Sources/Utils.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="Snake.cpp">
+    <ClCompile Include="Sources\Snake.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="GameOverState.cpp">
+    <ClCompile Include="Sources\PlayState.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="MenuState.cpp">
+    <ClCompile Include="Sources\MenuState.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="PlayState.cpp">
+    <ClCompile Include="Sources\GameOverState.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
   </ItemGroup>
@@ -30,19 +30,19 @@
     <ClInclude Include="Sources/Objects.h">
       <Filter>Sources</Filter>
     </ClInclude>
-    <ClInclude Include="Snake.h">
+    <ClInclude Include="Sources\State.h">
       <Filter>Sources</Filter>
     </ClInclude>
-    <ClInclude Include="State.h">
+    <ClInclude Include="Sources\Snake.h">
       <Filter>Sources</Filter>
     </ClInclude>
-    <ClInclude Include="MenuState.h">
+    <ClInclude Include="Sources\PlayState.h">
       <Filter>Sources</Filter>
     </ClInclude>
-    <ClInclude Include="GameOverState.h">
+    <ClInclude Include="Sources\MenuState.h">
       <Filter>Sources</Filter>
     </ClInclude>
-    <ClInclude Include="PlayState.h">
+    <ClInclude Include="Sources\GameOverState.h">
       <Filter>Sources</Filter>
     </ClInclude>
   </ItemGroup>

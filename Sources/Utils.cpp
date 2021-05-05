@@ -2,7 +2,6 @@
 #include "Defines.h"
 
 
-
 //konstruktorius sukuriantis langa ir pakraunantis srifta
 Game::Game() {
 	app.create(VideoMode(WIDTH, HEIGHT), "Snake Game");

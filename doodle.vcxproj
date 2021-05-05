@@ -152,22 +152,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="GameOverState.cpp" />
-    <ClCompile Include="MenuState.cpp" />
-    <ClCompile Include="PlayState.cpp" />
-    <ClCompile Include="Snake.cpp" />
     <ClCompile Include="Sources/Main.cpp" />
     <ClCompile Include="Sources/Utils.cpp" />
+    <ClCompile Include="Sources\GameOverState.cpp" />
+    <ClCompile Include="Sources\MenuState.cpp" />
+    <ClCompile Include="Sources\PlayState.cpp" />
+    <ClCompile Include="Sources\Snake.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GameOverState.h" />
-    <ClInclude Include="MenuState.h" />
-    <ClInclude Include="PlayState.h" />
-    <ClInclude Include="Snake.h" />
     <ClInclude Include="Sources/Defines.h" />
     <ClInclude Include="Sources/Objects.h" />
     <ClInclude Include="Sources/Utils.h" />
-    <ClInclude Include="State.h" />
+    <ClInclude Include="Sources\GameOverState.h" />
+    <ClInclude Include="Sources\MenuState.h" />
+    <ClInclude Include="Sources\PlayState.h" />
+    <ClInclude Include="Sources\Snake.h" />
+    <ClInclude Include="Sources\State.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Resources\background.png" />

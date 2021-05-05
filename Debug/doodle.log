@@ -1,13 +1,7 @@
 ﻿  GameOverState.cpp
-C:\Users\faust\OneDrive\Documents\BANDYMAS1\GameOverState.cpp : fatal error C1041: cannot open program database 'C:\Users\faust\OneDrive\Documents\BANDYMAS1\Debug\vc142.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
   MenuState.cpp
-C:\Users\faust\OneDrive\Documents\BANDYMAS1\MenuState.h(3,10): fatal error C1083: Cannot open include file: 'Defines.h': No such file or directory
-  PlayState.cpp
-C:\Users\faust\OneDrive\Documents\BANDYMAS1\Snake.h(2,10): fatal error C1083: Cannot open include file: 'Objects.h': No such file or directory
   Snake.cpp
-C:\Users\faust\OneDrive\Documents\BANDYMAS1\Snake.h(2,10): fatal error C1083: Cannot open include file: 'Objects.h': No such file or directory
-  Main.cpp
-C:\Users\faust\OneDrive\Documents\BANDYMAS1\Sources\Utils.h(2,10): fatal error C1083: Cannot open include file: 'State.h': No such file or directory
-  Utils.cpp
-C:\Users\faust\OneDrive\Documents\BANDYMAS1\Sources\Utils.h(2,10): fatal error C1083: Cannot open include file: 'State.h': No such file or directory
+C:\Users\faust\OneDrive\Documents\BANDYMAS1\Sources\Snake.cpp(5,16): error C2600: 'Snake::Snake': cannot define a compiler-generated special member function (must be declared in the class first)
+C:\Users\faust\OneDrive\Documents\BANDYMAS1\Sources\Snake.cpp(7,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\faust\OneDrive\Documents\BANDYMAS1\Sources\Snake.cpp(7,12): message : This diagnostic occurred in the compiler generated function 'Snake::Snake(void)'
   Generating Code...
