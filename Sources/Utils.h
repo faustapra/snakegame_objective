@@ -19,6 +19,14 @@ public:
 
 	Game();
 	~Game();
+	void pushState(State*); 
+	State* getState(); 
+	void changeState(State*); 
+	void popState(); 
+
+	Font getFont(); 
+
+	void gameLoop(); 
 	
 };
 

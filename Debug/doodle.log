@@ -1,7 +1,7 @@
 ﻿  GameOverState.cpp
-C:\Users\faust\OneDrive\Documents\BANDYMAS1\GameOverState.h(5,10): fatal error C1083: Cannot open include file: 'Utils.h': No such file or directory
+C:\Users\faust\OneDrive\Documents\BANDYMAS1\GameOverState.cpp : fatal error C1041: cannot open program database 'C:\Users\faust\OneDrive\Documents\BANDYMAS1\Debug\vc142.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
   MenuState.cpp
-C:\Users\faust\OneDrive\Documents\BANDYMAS1\MenuState.h(4,10): fatal error C1083: Cannot open include file: 'Game.h': No such file or directory
+C:\Users\faust\OneDrive\Documents\BANDYMAS1\MenuState.h(3,10): fatal error C1083: Cannot open include file: 'Defines.h': No such file or directory
   PlayState.cpp
 C:\Users\faust\OneDrive\Documents\BANDYMAS1\Snake.h(2,10): fatal error C1083: Cannot open include file: 'Objects.h': No such file or directory
   Snake.cpp
