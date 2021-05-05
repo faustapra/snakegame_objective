@@ -1,17 +1,12 @@
 
 #pragma once
+#include <SFML/Graphics.hpp>
+#include "Defines.h"
 
-#include "defines.h"
+using namespace sf;
 
-
-struct SNAKE {
-	float x;
-	float y;
-} s[100];
-
+struct Component {
+	int x, y;
 
 
-struct FRUIT {
-	float x;
-	float y;
-} f;
+};

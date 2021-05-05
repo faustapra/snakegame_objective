@@ -1,27 +1,24 @@
+﻿#pragma once
+#include "State.h"
+#include <stack>
+#include <SFML/Graphics.hpp>
 
+using namespace std;
+using namespace sf;
 
-
-#pragma once
-#include "SFML/Graphics.hpp"
-
-#define MAX_NUMBER_OF_ITEMS 2
-
-class Menu
-{
-public:
-	Menu(float width, float height);
-	~Menu();
-
-	void draw(sf::RenderWindow &window);
-	void MoveUp();
-	void MoveDown();
-	int GetPressedItem() { return selectedItemIndex; }
-
+class Game {
 private:
-	int selectedItemIndex;
-	sf::Font font;
-	sf::Text menu[MAX_NUMBER_OF_ITEMS];
 
+	//state klase abstrakti del to reikia pointer
+	//kompiliatorius leidžia kurti nuorodas tik į tokio tipo klases
+	stack<State*> states;
+	Font font;
+
+public:
+	RenderWindow app;
+
+	Game();
+	~Game();
+	
 };
-
 

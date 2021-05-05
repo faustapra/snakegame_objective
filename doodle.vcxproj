@@ -22,7 +22,7 @@
     <ProjectGuid>{B226AD54-342C-41E4-801E-BD646D7D41E2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>doodle</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -152,13 +152,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GameOverState.cpp" />
+    <ClCompile Include="MenuState.cpp" />
+    <ClCompile Include="PlayState.cpp" />
+    <ClCompile Include="Snake.cpp" />
     <ClCompile Include="Sources/Main.cpp" />
     <ClCompile Include="Sources/Utils.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GameOverState.h" />
+    <ClInclude Include="MenuState.h" />
+    <ClInclude Include="PlayState.h" />
+    <ClInclude Include="Snake.h" />
     <ClInclude Include="Sources/Defines.h" />
     <ClInclude Include="Sources/Objects.h" />
     <ClInclude Include="Sources/Utils.h" />
+    <ClInclude Include="State.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Resources\background.png" />
