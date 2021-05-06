@@ -1,7 +1,11 @@
 ﻿  GameOverState.cpp
   MenuState.cpp
+  PlayState.cpp
   Snake.cpp
-C:\Users\faust\OneDrive\Documents\BANDYMAS1\Sources\Snake.cpp(5,16): error C2600: 'Snake::Snake': cannot define a compiler-generated special member function (must be declared in the class first)
 C:\Users\faust\OneDrive\Documents\BANDYMAS1\Sources\Snake.cpp(7,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\faust\OneDrive\Documents\BANDYMAS1\Sources\Snake.cpp(7,12): message : This diagnostic occurred in the compiler generated function 'Snake::Snake(void)'
+C:\Users\faust\OneDrive\Documents\BANDYMAS1\Sources\Snake.cpp(81,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\faust\OneDrive\Documents\BANDYMAS1\Sources\Snake.cpp(81,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Generating Code...
+GameOverState.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall GameOverState::update(double)" (?update@GameOverState@@UAEXN@Z)
+MenuState.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall MenuState::update(double)" (?update@MenuState@@UAEXN@Z)
+C:\Users\faust\OneDrive\Documents\BANDYMAS1\Debug\doodle.exe : fatal error LNK1120: 2 unresolved externals
